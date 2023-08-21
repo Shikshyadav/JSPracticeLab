@@ -39,3 +39,14 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ************************************** ASSIGNMENT OPERATOR**************************
+
+age = age + 2;
+age+=2; //it gives the same answer it can also be written this way
+
+age = age - 2;
+age -= 2;
+
+age = age*2;
+age *=2;
