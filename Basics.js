@@ -78,3 +78,8 @@ let gameCounter = 100
 ++gameCounter; //If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
 //If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
 console.log(gameCounter); //read about precedence,postfix and prefix from JS MDN
+
+// TYPESCRIPT
+// Typescript is statically typed but JS is dynamically typed ; designed by microsoft
+// ststic=> type cannot be changed; fixed
+// dynamic => can be changed     
