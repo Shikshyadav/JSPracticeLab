@@ -44,3 +44,20 @@ let science = 56;
 let average = (maths + english + science)/3;
 console.log(average);
 
+
+// uniary operator
+// PRE-INCREMENT(FIRST CHANGE, THEN USE)
+
+let ages = 10;
+let newAge = ++ages;4
+console.log(ages);
+console.log(newAge);
+
+// POST-INCREMENT (FIRST USE, THEN CHANGe)
+
+let num = 10;
+let newNum = num++;
+console.log(num);
+console.log(newNum);
+
+// same for decrement
