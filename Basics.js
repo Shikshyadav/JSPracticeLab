@@ -82,4 +82,14 @@ console.log(gameCounter); //read about precedence,postfix and prefix from JS MDN
 // TYPESCRIPT
 // Typescript is statically typed but JS is dynamically typed ; designed by microsoft
 // ststic=> type cannot be changed; fixed
-// dynamic => can be changed     
+// dynamic => can be changed    
+
+
+let name1 = "shiksha"
+name1.length;
+console.log(name1.length);
+console.log(typeof name1.length);   //here length is called property in programming
+
+"shiksha".length
+console.log("shiksha".length);
+console.log("shiksha"[4]);

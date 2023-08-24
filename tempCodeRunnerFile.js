@@ -1,4 +1,4 @@
-let num = 10;
-let newNum = num++;
-console.log(num);
-console.log(newNum);
+let empty = "";
+console.log(empty.length);
+let space = " ";
+console.log(space.length);
