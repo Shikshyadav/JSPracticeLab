@@ -1,11 +1,10 @@
-let user1 = {
-    email: "shikshyadav81@gmail.com",
-    phone: 98324245623  
+let color = "red";
+if(color == "red"){
+    console.log("stop");
 }
-
-let user2= user1;
-
-user2.email = "yadavshiksha@gmail.com"
-
-console.log(user1.email);
-console.log(user2.email);
+if(color == "yellow"){
+    console.log("SLow down");
+}
+if(color == "green"){
+    console.log("Go!");
+}

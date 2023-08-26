@@ -39,3 +39,16 @@ let empty = "";
 console.log(empty.length);
 let space = " ";
 console.log(space.length);
+
+// create a traffic light system that shows what to do based on colors
+
+let color = "red";
+if(color == "red"){
+    console.log("stop");
+}
+if(color == "yellow"){
+    console.log("SLow down");
+}
+if(color == "green"){
+    console.log("Go!");
+}
