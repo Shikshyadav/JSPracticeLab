@@ -93,3 +93,25 @@ console.log(typeof name1.length);   //here length is called property in programm
 "shiksha".length
 console.log("shiksha".length);
 console.log("shiksha"[4]);
+
+// +++++++++++++++++++++++++++++++++++++++++ TEMPLATE LITERALS ++++++++++++++++++++++++++++++++++++++++++++
+
+// let us do a simple addition
+
+let pencilPrice = 10;
+let eraserPrice = 5;
+
+let output = "the total price is: "+ (pencilPrice+eraserPrice)+ " Rupees"; //while creating a seperate string "+" is used
+// console.log("the total price is: ", pencilPrice+eraserPrice, "Rupees");  in console.log coma "," is used
+
+console.log(output);
+
+// proper way of writing the above code:
+
+let milkPrice = 85;
+let breadPrice = 30;
+
+console.log(`The total price is ${milkPrice+breadPrice} Rupees`); //backtick "``"
+
+// == ->compares value, not type 
+// === -> compares both type and value

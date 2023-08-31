@@ -27,13 +27,6 @@ console.log(undefined<0);
 // null == undefined; // true
 // Value such as false, '', '0', and [] are subject to numeric type coercion, all of them coerce to zero.
 
-// what will be the value of age
-let age = 23;
- age + 2; //the age will not be increased as writing age = age + 2 and writing age + 2 are two different things
-//  age = age + 2 will increase the value of age but while writing age + 2 only 2 will be added to 23 and 25 will be printed
-console.log(age +2);
-
-console.log(age);
 
 // find the average value
 
@@ -61,3 +54,6 @@ console.log(num);
 console.log(newNum);
 
 // same for decrement
+
+// operator comparison between non-number its unicode is compared 
+// a<b<c<d.....  A<B<C<D....  a>A  b>B..

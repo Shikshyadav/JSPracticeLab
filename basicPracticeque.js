@@ -1,3 +1,10 @@
+// what will be the value of age
+let age = 23;
+ age + 2; //the age will not be increased as writing age = age + 2 and writing age + 2 are two different things
+//  age = age + 2 will increase the value of age but while writing age + 2 only 2 will be added to 23 and 25 will be printed
+console.log(age +2);
+
+console.log(age);
 // what is the value of each variable in each line of code?
 
 let num = 5;
@@ -39,16 +46,3 @@ let empty = "";
 console.log(empty.length);
 let space = " ";
 console.log(space.length);
-
-// create a traffic light system that shows what to do based on colors
-
-let color = "red";
-if(color == "red"){
-    console.log("stop");
-}
-if(color == "yellow"){
-    console.log("SLow down");
-}
-if(color == "green"){
-    console.log("Go!");
-}
